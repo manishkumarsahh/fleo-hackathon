@@ -2,15 +2,13 @@ const express = require('express');
 const app = express();
 const port =process.env.PORT|| 8000;
 
-app.use('/', require('./routes'));
 
 
 app.set('view engine','ejs');
 app.set('views', './views');
 
-app.get('/',function(req,res){
-    return res.send('hello');
-});
+app.use('/', require('./routes'));
+
 
 app.listen(port,function(err){
     if(err){
