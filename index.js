@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.static('assets'));
 
  app.get('/',function(req,res){
-     return res.send('helloooo...');
+     return res.render('home');
  });
 
 
