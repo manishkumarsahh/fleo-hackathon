@@ -10,3 +10,5 @@ mongoose.connect(db, {
 }).then(() => {
     console.log(`connection seccessfull`);
 }).catch((err)=> console.log(`no connection`));
+
+module.exports = db;
