@@ -8,7 +8,7 @@ const User = require('../models/user');
 passport.use(new googleStrategy({
         clientID: '65561121686-4onqdipkg49fsn26fv8ih45v94qntor5.apps.googleusercontent.com',
         clientSecret: 'bZ9VXzhzlnk5PLsqIjwzXkMc', // e.g. _ASDFA%KFJWIASDFASD#FAD-
-        callbackURL: "http://localhost:8000/users/auth/google/callback",
+        callbackURL: "https://socialapp-authentication.herokuapp.com/users/auth/google/callback",
     },
 
     function(accessToken, refreshToken, profile, done){
