@@ -1,12 +1,14 @@
 <h1>Sign In</h1>
 
 <form action="/users/create-session" method="POST">
-    <input type="email" name="email" placeholder="Email"  required>
-    <input type="password" name="password" placeholder="Password"  required>
-    <input type="submit" value="Sign In">
+    <input id="field" style="margin-left: 20%; width: 30%;" type="email" name="email" placeholder="Email"  required>
+    <br>
+    <input id="field" style="margin-left: 20%; width: 30%;" type="password" name="password" placeholder="Password"  required>
+    <br>
+    <input type="submit" value="Sign In" style="margin-left: 30%;">
 
 </form>
-
-<p>
+<br>
+<p id="field1" style="margin-left: 20%;">
     <a href="/users/auth/google">Google Sign In/Sign Up</a>
 </p>
