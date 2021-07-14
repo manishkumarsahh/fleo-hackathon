@@ -1,7 +1,18 @@
 #home-container{
     margin-left: 10%;
-    display: flex;
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 #posts-list-container{
     display: flex;
   justify-content: center;
@@ -17,18 +28,9 @@
   
 
 }
-#feed-post{
-    width: 40%;
-    float: left;
-    margin-left: 20%;
-}
 
-#user-friends{
-    width:20% ;
-   
-    float: right;
-    margin-left: 20%;
-}
+
+
 #postlayout{
     margin-top: 20%;
     background-color: #B3ED68;

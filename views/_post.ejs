@@ -3,8 +3,10 @@
         <% if (locals.user && locals.user.id == post.user.id){ %>
         <small>
             <a class="delete-post-button" id="deletebtn"  href="/posts/destroy/<%= post.id %>">X</a>
+
         </small>
         <% } %>
+        <a href="/">click here</a>
         <%= post.content %>
         <br>
         <small>

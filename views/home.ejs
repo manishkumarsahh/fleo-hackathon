@@ -1,6 +1,29 @@
 <link rel="stylesheet" href="/css/home.css">
 
 <div id="home-container">
+
+
+
+    <div id="user-friends">
+        <h4>Registered Users</h4>
+        <% for(u of all_users){%>
+            <div class="w3-ul">
+                <a href="/users/profile/<%= u.id %>"><%= u.name %></a>
+            </div>
+        <% } %>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
     <div id="feed-posts">
             
             <% if(locals.user){ %>
@@ -21,22 +44,9 @@
             </div>
     </div>
 
-    <div>
-       
-            
-        
-
-    </div>
+  
         
         
-        <div id="user-friends">
-            <h4>Registered Users</h4>
-            <% for(u of all_users){%>
-                <p>
-                    <a href="/users/profile/<%= u.id %>"><%= u.name %></a>
-                </p>
-            <% } %>
-        </div>
 </div>
 
 <!-- importing this script for creating the comments -->
