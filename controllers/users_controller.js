@@ -79,7 +79,7 @@ module.exports.signUp = function(req,res){
     }
 
     return res.render('user_sign_up', {
-        title: "Social | Sign Up"
+        title: "Social App | Sign Up"
     })
 }
 
@@ -89,7 +89,7 @@ module.exports.signIn = function(req,res){
     }
 
     return res.render('user_sign_in',{
-        title:"Social | Sign In"
+        title:"Social App | Sign In"
     })
 }
 
