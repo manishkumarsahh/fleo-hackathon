@@ -11,7 +11,7 @@ http://localhost:8000/tatasteel/getfactory   ---> get request
 ->post request
 ->form-data are- totalSales,targetSalse,tatasteel_id
 
-2. apis to create data in tatasteel table
+3. apis to create data in tatasteel table
 
 ->http://localhost:8000/tatasteel/create
 -> form-data are- totalSales,targetSalse,factory_id           
