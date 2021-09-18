@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-
+//schema for tatasteel table
 const tatasteelSchema = new mongoose.Schema({
     totalSales:{
         type: String,

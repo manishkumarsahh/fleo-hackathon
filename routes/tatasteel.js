@@ -6,6 +6,7 @@ const tatasteelController = require('../controllers/tatasteel_controller');
  
 
 
+//connect to action controller
 router.post('/create',tatasteelController.create);
 
 router.get('/getTatasteel',tatasteelController.getTatasteel);

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+// schema for factory table
 const factorySchema = new mongoose.Schema({
     totalSales: {
         type: String,

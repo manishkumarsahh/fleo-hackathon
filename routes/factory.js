@@ -5,7 +5,7 @@ const factoryController = require('../controllers/factory_controller');
 
 
 
-
+//connect to action controller
 router.post('/create',factoryController.create);
 
 router.get('/getfactory',factoryController.getfactory);

@@ -1,6 +1,7 @@
 const Tatasteel = require('../models/tatasteel');
 
-
+////actiion controller
+//http://localhost:8000/tatasteel/create
 module.exports.create = async function(req, res){
     try{
         const newtatasteel = await Tatasteel.create({ 
@@ -18,7 +19,7 @@ module.exports.create = async function(req, res){
     }
   
 }
-
+//http://localhost:8000/tatasteel/getfactory   ---> get request
 module.exports.getTatasteel = async function(req, res){
     try{
         const newtatasteel = await Tatasteel.find({});

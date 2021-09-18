@@ -6,7 +6,7 @@ const path = require('path');
 
 console.log('router loaded');
 
-
+//connect to tatasteel and factory files
 router.use('/tatasteel', require('./tatasteel'));
 router.use('/factory', require('./factory'));
 
